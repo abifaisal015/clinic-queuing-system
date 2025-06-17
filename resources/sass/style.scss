@@ -1,0 +1,118 @@
+.nav-link:hover {
+    color: yellow !important;
+}
+
+.home {
+    background-image: url("/img/bg-home.jpg");
+    background-size: cover;
+
+    .btn:hover {
+        background: black !important;
+        color: yellow !important;
+    }
+}
+
+.contact {
+    .instagram {
+        width: 50px;
+        height: 50px;
+
+        &:hover {
+            background: radial-gradient(
+                    circle farthest-corner at 35% 90%,
+                    #fec564,
+                    transparent 50%
+                ),
+                radial-gradient(
+                    circle farthest-corner at 0 140%,
+                    #fec564,
+                    transparent 50%
+                ),
+                radial-gradient(
+                    ellipse farthest-corner at 0 -25%,
+                    #5258cf,
+                    transparent 50%
+                ),
+                radial-gradient(
+                    ellipse farthest-corner at 20% -50%,
+                    #5258cf,
+                    transparent 50%
+                ),
+                radial-gradient(
+                    ellipse farthest-corner at 100% 0,
+                    #893dc2,
+                    transparent 50%
+                ),
+                radial-gradient(
+                    ellipse farthest-corner at 60% -20%,
+                    #893dc2,
+                    transparent 50%
+                ),
+                radial-gradient(
+                    ellipse farthest-corner at 100% 100%,
+                    #d9317a,
+                    transparent
+                ),
+                linear-gradient(
+                    #6559ca,
+                    #bc318f 30%,
+                    #e33f5f 50%,
+                    #f77638 70%,
+                    #fec66d 100%
+                );
+            color: white !important;
+        }
+    }
+
+    .twitter {
+        width: 50px;
+        height: 50px;
+
+        &:hover {
+            background: #1DA1F2 !important;
+            color: white !important;
+        }
+    }
+
+    .facebook {
+        width: 50px;
+        height: 50px;
+
+        &:hover {
+            background: #4267B2 !important;
+            color: white !important;
+        }
+    }
+
+    .phone-number {
+        color: white;
+
+        &:hover {
+            color: yellow !important;
+        }
+    }
+
+    .email {
+        color: white;
+
+        &:hover {
+            color: yellow !important;
+        }
+    }
+
+    .website {
+        color: white;
+
+        &:hover {
+            color: yellow !important;
+        }
+    }
+
+    .address {
+        color: white;
+
+        &:hover {
+            color: yellow !important;
+        }
+    }
+}
